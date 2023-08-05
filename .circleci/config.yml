@@ -9,7 +9,7 @@ jobs:
       - image: cimg/node:18.15.0
 
     # Service container image available at `host: localhost`
-      - image: cimg/postgres:12.0-alpine-3.12
+      - image: cimg/postgres:12.9
         environment:
           POSTGRES_DB: circle-test
           POSTGRES_USER: circleci
